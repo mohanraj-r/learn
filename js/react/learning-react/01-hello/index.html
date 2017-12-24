@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title>React! React! React!</title>
+
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+    <style>
+        #react-container {
+
+            padding: 50px;
+
+            background-color: #EEE;
+
+        }
+
+        #react-container h1 {
+
+            font-size: 48px;
+
+            font-family: sans-serif;
+
+            color: #0080A8;
+
+        }
+    </style>
+</head>
+
+
+<body>
+<div id="react-container"></div>
+
+<script type="text/babel">
+    ReactDOM.render(
+        <h1> M R </h1>,
+        document.querySelector("#react-container")
+    );
+
+</script>
+
+</body>
+
+
+</html>

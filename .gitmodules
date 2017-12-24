@@ -1,3 +1,18 @@
 [submodule "go/streaming_data_analysis_go/resources/streaming-data-analysis-go"]
 	path = go/streaming_data_analysis_go/resources/streaming-data-analysis-go
 	url = https://content.oreilly.com/OLT/streaming-data-analysis-go.git
+[submodule "js/javascript/JavaScript30"]
+	path = js/javascript/JavaScript30
+	url = git@github.com:mohanraj-r/JavaScript30.git
+[submodule "js/react/learning-react-oreilly/resources/learning-react"]
+	path = js/react/learning-react-oreilly/resources/learning-react
+	url = https://github.com/MoonHighway/learning-react.git
+[submodule "js/react/react-16-essentials/resources/React-Essentials-Second-Edition"]
+	path = js/react/react-16-essentials/resources/React-Essentials-Second-Edition
+	url = https://github.com/PacktPublishing/React-Essentials-Second-Edition.git
+[submodule "js/react/react-d3-course"]
+	path = js/react/react-d3-course
+	url = https://github.com/colinmegill/react-d3-course
+[submodule "js/react/react_quickly/resources/react"]
+	path = js/react/react_quickly/resources/react
+	url = https://github.com/azat-co/react.git

@@ -1,0 +1,19 @@
+{
+  "name": "react_quickly",
+  "version": "1.0.0",
+  "description": "* [React Quickly: Painless web apps with React, JSX, Redux, and GraphQL](https://www.safaribooksonline.com/library/view/react-quickly-painless/9781617293344/) * [Manning | React Quickly](https://www.manning.com/books/react-quickly) * [GitHub - azat-co/react: Examples for the React Quickly book.](https://github.com/azat-co/react) * [Demos](http://reactquickly.co/demos) * [YouTube - React Quickly screencast](https://www.youtube.com/playlist?list=PLguYmmjtxbWFJfCSxpVqBH8vL_plQysVg) * [Summaries for React Quickly Book](https://node.university/p/react-quickly-summaries)",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
