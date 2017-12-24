@@ -1,0 +1,3 @@
+[submodule "go/streaming_data_analysis_go/resources/streaming-data-analysis-go"]
+	path = go/streaming_data_analysis_go/resources/streaming-data-analysis-go
+	url = https://content.oreilly.com/OLT/streaming-data-analysis-go.git
