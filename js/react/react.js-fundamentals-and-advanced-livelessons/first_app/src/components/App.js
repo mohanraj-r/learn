@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Profile from './Profile';
+import AddProfile from "./AddProfile";
 
 class App extends Component {
     constructor(props) {
@@ -56,7 +57,7 @@ class App extends Component {
             </header>
               <div>
                   {profiles}
-                  <button onClick={this.addProfile}>Add Profile</button>
+                  <AddProfile addProfile={this.addProfile}/>
               </div>
           </div>
         );
