@@ -23,21 +23,14 @@ class App extends Component {
             ]
         };
 
-        this.addProfile = this.addProfile.bind(this);
+        // this.addProfile = this.addProfile.bind(this);
     }
 
-    addProfile(e) {
-        let staticUser = {
-            name: "Joe",
-            age: 90,
-            bio: "Moving it along",
-            hobbies: ["living", "holding on"]
-        }
-
+    addProfile = (newProfile) => {
         this.setState({
-            profiles: this.state.profiles.concat(staticUser)
+            profiles: this.state.profiles.concat(newProfile)
         });
-    }
+    };
 
     render() {
         let profiles = this.state.profiles.map((profile, index) =>
