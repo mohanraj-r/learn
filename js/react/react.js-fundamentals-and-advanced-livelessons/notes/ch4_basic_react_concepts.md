@@ -35,8 +35,4 @@
                 - so control flow is not necessarily one way
                     - just the data flow
                     
-# Ch5 Virtual DOM
-* Dom updates are one of the slowest operations in the render process
-* Understanding the process of reconciliation 
-    - by which react syncs the virtual dom with the real dom
-    - will help us understand the performance implications of our code
+        
