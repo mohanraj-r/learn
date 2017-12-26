@@ -10,12 +10,13 @@ class Profile extends Component {
 
         return (
             <div>
-                <h3>{this.props.name}</h3>
+                <h2>{this.props.name}</h2>
                 <p>{this.props.name} is {this.props.age} years old and {this.props.bio}</p>
-                <h3>Hobbies</h3>
+                <h4>Hobbies</h4>
                 <ul>
                     {hobbies}
                 </ul>
+                <hr/>
             </div>
         );
     }
@@ -41,6 +42,21 @@ class App extends Component {
                 }
             ]
         };
+
+        this.addProfile = this.addProfile.bind(this);
+    }
+
+    addProfile(e) {
+        let staticUser = {
+            name: "Joe",
+            age: 90,
+            bio: "Moving it along",
+            hobbies: ["living", "holding on"]
+        }
+
+        this.setState({
+            profiles: this.state.profiles.concat(staticUser)
+        });
     }
 
     render() {
@@ -61,6 +77,7 @@ class App extends Component {
             </header>
               <div>
                   {profiles}
+                  <button onClick={this.addProfile}>Add Profile</button>
               </div>
           </div>
         );
