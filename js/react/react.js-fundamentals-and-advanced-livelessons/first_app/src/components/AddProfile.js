@@ -4,53 +4,37 @@ class AddProfile extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "Name",
-            age: "Age",
-            bio: "Bio",
-            hobby: "Hobby"
+            formInput : {
+                name: "Name",
+                age: "Age",
+                bio: "Bio",
+                hobby: "Hobby"
+            }
         };
     }
 
-    handleName = (e) => {
-        this.setState({
-            name: e.target.value
-        })
-    };
-
-    handleAge = (e) => {
-        this.setState({
-            age: e.target.value
-        })
-    };
-
-    handleBio = (e) => {
-        this.setState({
-            bio: e.target.value
-        })
-    };
-
-    handleHobby = (e) => {
-        this.setState({
-            hobby: e.target.value
-        })
-    };
+    handleInputChange = (e) => {
+        let formInput = Object.assign({}, this.state.formInput)
+        formInput[e.target.id] = e.target.value;
+        this.setState({formInput});
+    }
 
     addProfile = (e) => {
         this.props.addProfile({
-            name: this.state.name,
-            age: this.state.age,
-            bio: this.state.bio,
-            hobbies: [this.state.hobby]
+            name: this.state.formInput.name,
+            age: this.state.formInput.age,
+            bio: this.state.formInput.bio,
+            hobbies: [this.state.formInput.hobby]
         })
     }
 
     render() {
         return (
             <div>
-                <input onChange={this.handleName} value={this.state.name}/>
-                <input onChange={this.handleAge} value={this.state.age}/>
-                <input onChange={this.handleBio} value={this.state.bio}/>
-                <input onChange={this.handleHobby} value={this.state.hobby}/>
+                <input id="name"  onChange={this.handleInputChange} value={this.state.formInput.name}/>
+                <input id="age"   onChange={this.handleInputChange} value={this.state.formInput.age}/>
+                <input id="bio"   onChange={this.handleInputChange} value={this.state.formInput.bio}/>
+                <input id="hobby" onChange={this.handleInputChange} value={this.state.formInput.hobby}/>
                 <button onClick={this.addProfile}>Add Profile</button>
             </div>
         );
