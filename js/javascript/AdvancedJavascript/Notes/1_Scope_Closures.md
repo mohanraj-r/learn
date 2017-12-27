@@ -141,6 +141,8 @@ Intro
     
       o2.f2();   // "bar2"   - implicit binding 
       o3.f3();   // "bar3"   - implicit binding
+      f = o3.f3;    // Taking on a reference to a implicitly bound function, changes the binding ..
+      f();          // "undefined" as now the `this` by virtue of call site is the global object
     
       foo.apply(o2); // "bar2"    - explicit binding
       foo.call(o2);  // "bar2"    - explicit binding
