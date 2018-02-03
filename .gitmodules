@@ -16,3 +16,9 @@
 [submodule "js/react/react_quickly/resources/react"]
 	path = js/react/react_quickly/resources/react
 	url = https://github.com/azat-co/react.git
+[submodule "js/d3/D3.js_4.x_Data_Visualization/resources/D3.js-4.x-Data-Visualization"]
+	path = js/d3/D3.js_4.x_Data_Visualization/resources/D3.js-4.x-Data-Visualization
+	url = git@github.com:PacktPublishing/D3.js-4.x-Data-Visualization.git
+[submodule "js/d3/D3.js_4.x_Data_Visualization/resources/learning-d3-v4"]
+	path = js/d3/D3.js_4.x_Data_Visualization/resources/learning-d3-v4
+	url = git@github.com:aendrew/learning-d3-v4.git
