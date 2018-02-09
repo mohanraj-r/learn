@@ -22,3 +22,6 @@
 [submodule "js/d3/D3.js_4.x_Data_Visualization/resources/learning-d3-v4"]
 	path = js/d3/D3.js_4.x_Data_Visualization/resources/learning-d3-v4
 	url = git@github.com:aendrew/learning-d3-v4.git
+[submodule "js/d3/interactive-data-visualization/resources/d3-book"]
+	path = js/d3/interactive-data-visualization/resources/d3-book
+	url = git@github.com:alignedleft/d3-book.git
