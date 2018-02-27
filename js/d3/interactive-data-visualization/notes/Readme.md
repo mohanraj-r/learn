@@ -10,3 +10,9 @@
 ## JS
 
 ## SVG
+
+# Ch5 - Data binding
+* Data visualization is a process of mapping data to visuals. 
+    * Data in, visual properties out. 
+    * Maybe bigger numbers make taller bars, or special categories trigger brighter colors. 
+    * 
