@@ -1,5 +1,8 @@
 # Resources
 * [The Architect Elevator — Visiting the upper floors](https://martinfowler.com/articles/architect-elevator.html)
+* [Alistair.Cockburn.us | Hexagonal architecture](http://alistair.cockburn.us/Hexagonal+architecture)
+    - [Adapter pattern - Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern)
+* [Stevey's Google Platforms Rant I was at Amazon for about six and a half year...](https://plus.google.com/+RipRowan/posts/eVeouesvaVX)
 
 ## Information Architecture
 * [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World, 3rd Edition](https://www.safaribooksonline.com/library/view/data-and-reality/9781935504214/)
