@@ -1,4 +1,14 @@
 # Resources
+* [The Architect Elevator — Visiting the upper floors](https://martinfowler.com/articles/architect-elevator.html)
+
+## Information Architecture
+* [Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World, 3rd Edition](https://www.safaribooksonline.com/library/view/data-and-reality/9781935504214/)
+    - prefer 2nd edition
+
+## Risk management
+* [Set-Based Concurrent Engineering - XP123](https://xp123.com/articles/set-based-concurrent-engineering/)
+* [Toyota’s Principles of Set-Based Concurrent Engineering](https://sloanreview.mit.edu/article/toyotas-principles-of-setbased-concurrent-engineering/)
+
 ## Decomposition
 * [On the criteria to be used in decomposing systems into modules | the morning paper](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/)
 * [The C4 model for software architecture](https://c4model.com/)
