@@ -1,0 +1,19 @@
+{
+  "name": "react-beyond-basics",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts" : {
+    "dev": "node src/server.js",
+    "webpack": "webpack -dw"
+  }
+}
