@@ -1,18 +1,12 @@
 import React from 'react';
 import TimeDisplay from "./TimeDisplay";
+import store from "./store/index";
 
 class App extends React.Component {
-    state = {
-      // time: new Date(),
-      time: "Date",
-    };
-
     componentDidMount() {
-        setInterval(() => {
-                this.setState({
-                    time: new Date(),
-                })
-            }, 1000)
+        store.on("change", ()=>{
+            this.setState(store.state);
+        })
     }
 
     render() {
@@ -20,7 +14,7 @@ class App extends React.Component {
             <div className={"demo"}>
                 Hello World!
                 <input/>
-                <TimeDisplay time={this.state.time}/>
+                <TimeDisplay time={store.state.time}/>
             </div>
             )
     }
