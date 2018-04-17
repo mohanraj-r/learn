@@ -4,8 +4,8 @@ import store from "./store/index";
 
 class App extends React.Component {
     componentDidMount() {
-        store.on("change", ()=>{
-            this.setState(store.state);
+        store.on("change", (time)=>{
+            this.setState(time);
         })
     }
 

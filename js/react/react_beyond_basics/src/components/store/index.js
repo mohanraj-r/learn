@@ -8,7 +8,7 @@ store.state = {
 
 setInterval(() => {
     store.state.time = new Date();
-    store.emit("change")
+    store.emit("change", store.state.time)
 }, 1000);
 
 export default store;
