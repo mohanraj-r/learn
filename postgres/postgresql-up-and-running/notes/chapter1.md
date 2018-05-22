@@ -1,7 +1,14 @@
-# [PostgreSQL: Up and Running, 3rd Edition](https://www.safaribooksonline.com/library/view/postgresql-up-and/9781491963401/)
+# Chapter 1. The Basics
 
-## Chapter 1. The Basics
-### Application platform
+- [Chapter 1. The Basics](#chapter-1-the-basics)
+	- [Application platform](#application-platform)
+	- [PostgreSQL Database Objects](#postgresql-database-objects)
+		- [Attributes](#attributes)
+	- [new features in 10](#new-features-in-10)
+		- [new features in 9.6](#new-features-in-96)
+		- [new features in 9.5](#new-features-in-95)
+
+## Application platform
 * you can define additional data types to suit your needs
 	* PostgreSQL automatically creates a companion array type for you
 * PostgreSQL also automatically creates types from any tables you define
@@ -11,7 +18,7 @@
 *  Many third-party extensions for PostgreSQL leverage custom types 
 	*  to achieve performance gains, provide domain-specific constructs for shorter and more maintainable code
 
-### PostgreSQL Database Objects
+## PostgreSQL Database Objects
 Quick overview to those objects that you should be familiar with:
 * Databases
 * Schemas
@@ -99,12 +106,12 @@ Quick overview to those objects that you should be familiar with:
 	* Rules are instructions to rewrite an SQL prior to execution
 	* they’ve fallen out of favor because triggers can accomplish the same things
 
-#### Attributes
+### Attributes
 * For each object, PostgreSQL makes available many attribute variables that you can set. 
 * You can set variables at the server level, at the database level, at the function level, and so on.
 
 
-### new features in 10
+## new features in 10
 * Query parallelization improvements
 	* There are new planner strategies for parallel queries
 	* These changes allow a wider range of queries to be parallelized 
@@ -128,7 +135,7 @@ Quick overview to those objects that you should be familiar with:
 * CREATE STATISTICS
 	* New construct for creating statistics on multiple columns
 
-#### new features in 9.6
+### new features in 9.6
 * Query parallelization
 	* PostgreSQL engine can distribute certain types of queries across multiple cores and processers
 	* Qualified queries include those with sequential scans, some joins, and some aggregates.
@@ -137,7 +144,7 @@ Quick overview to those objects that you should be familiar with:
 	* Use the distance operator <-> in a full text search query 
 		* to indicate how far two words can be apart from each other and still be considered a match
 
-#### new features in 9.5
+### new features in 9.5
 * Insert and update conflict handling
 	* Prior to 9.5, any inserts or updates that conflicted with primary key and check constraints would automatically fail. 
 	* Now you have an opportunity to catch the exception and offer an alternative course, or to skip the records causing the conflict.
