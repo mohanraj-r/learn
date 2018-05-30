@@ -25,3 +25,6 @@
 [submodule "js/d3/interactive-data-visualization/resources/d3-book"]
 	path = js/d3/interactive-data-visualization/resources/d3-book
 	url = git@github.com:alignedleft/d3-book.git
+[submodule "architecture/api/graphql/Rethinking REST: A hands-on guide to GraphQL and queryable APIs/resources/rethinking-rest"]
+	path = architecture/api/graphql/Rethinking REST: A hands-on guide to GraphQL and queryable APIs/resources/rethinking-rest
+	url = git@github.com:ariannedee/rethinking-rest.git
