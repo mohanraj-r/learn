@@ -5,16 +5,22 @@
 	* [GraphQL spec](http://facebook.github.io/graphql/October2016/)
 	* [Zero to GraphQL in 30 Minutes – Steven Luscher - YouTube](https://www.youtube.com/watch?v=UBGzsb2UkeY&feature=youtu.be)
 	* [GraphQL: A data query language | GraphQL](https://graphql.org/blog/graphql-a-query-language/)
-* [GraphQL Clients | GraphQL.js Tutorial](https://graphql.org/graphql-js/graphql-clients/)
+	* [GraphQL Clients | GraphQL.js Tutorial](https://graphql.org/graphql-js/graphql-clients/)
 * [chentsulin/awesome-graphql: Awesome list of GraphQL & Relay](https://github.com/chentsulin/awesome-graphql)
 * [Versioning an API in GraphQL vs. REST](https://symfony.fi/entry/versioning-an-api-in-graphql-vs-rest)
 * [Security and GraphQL Tutorial](https://www.howtographql.com/advanced/4-security/)
 * [Business logic layer | GraphQL](https://graphql.org/learn/thinking-in-graphs/#business-logic-layer)
 * [GraphQL resource limitations | GitHub Developer Guide](https://developer.github.com/v4/guides/resource-limitations/)
+* [...And GraphQL for all? A few things to think about before blindly dumping REST for GraphQL | API Handyman](https://apihandyman.io/and-graphql-for-all-a-few-things-to-think-about-before-blindly-dumping-rest-for-graphql/)
+
 ### dev tools
 * [Altair](https://altair-gql.sirmuel.design/)
 * [GraphQL developer tools - Chrome Web Store](https://chrome.google.com/webstore/detail/graphql-developer-tools/hflnkihcpgldmkepajmpooacmmhglpff?hl=en-US)
 * [GraphQL Network - Chrome Web Store](https://chrome.google.com/webstore/detail/graphql-network/igbmhmnkobkjalekgiehijefpkdemocm?hl=en-US)
+
+### Go libs
+* [Go Libraries](https://github.com/chentsulin/awesome-graphql#go-libraries)
+* [rs/rest-layer: REST Layer, Go (golang) REST API framework](https://github.com/rs/rest-layer)
 
 ## REST
 ### Cons
