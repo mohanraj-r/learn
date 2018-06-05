@@ -5,12 +5,18 @@
 		- [Operators](#operators)
 		- [PostgreSQL: System Views](#postgresql--system-viewshttps---wwwpostgresqlorg-docs-current-static-views-overviewhtml)
 	- [Resources](#resources)
+		- [SQL](#sql)
+		- [Books](#books)
+		- [Courses](#courses)
 		- [Performance](#performance)
+			- [Monitors](#monitors)
 		- [Go](#go)
 		- [Extensions](#extensions)
 
 ## Reference
 * [PostgreSQL: Documentation: 10](https://www.postgresql.org/docs/10/static/index.html)
+* [PostgreSQL: Documentation: 10: 7.8. WITH Queries (Common Table Expressions)](https://www.postgresql.org/docs/current/static/queries-with.html)
+* [PostgreSQL: Documentation: 10: Chapter 42. PL/pgSQL - SQL Procedural Language](https://www.postgresql.org/docs/current/static/plpgsql.html)
 * [PostgreSQL: Documentation: devel: pgbench](https://www.postgresql.org/docs/devel/static/pgbench.html)
 * [PostgreSQL: Documentation: 10: pg_dump](https://www.postgresql.org/docs/current/static/app-pgdump.html)
 * [Foreign data wrappers - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
@@ -36,10 +42,22 @@
     * [Automated Performance Testing of Postgres - Greg Burek - YouTube](https://www.youtube.com/watch?v=QHxoXboBllo)
 * [Jess88/Introduction-to-PostgreSQL: Introduction to PostgreSQL materials](https://github.com/Jess88/Introduction-to-PostgreSQL)
 
+### SQL
+* [SQL Fundamentals LiveLessons](https://www.safaribooksonline.com/library/view/sql-fundamentals-livelessons/9780768694765/)
+* [Introduction to SQL | Pluralsight](https://app.pluralsight.com/library/courses/introduction-to-sql/table-of-contents)
+* [Getting Started with SQL](https://www.safaribooksonline.com/library/view/getting-started-with/9781491938607/)
+
+### Books
+
+### Courses
+* [The PostgreSQL Document Database - jsonb type | Pluralsight](https://app.pluralsight.com/library/courses/postgresql-document-database/table-of-contents)
+
 ### Performance
 * [awesome-postgres/Monitoring](https://github.com/dhamaniasad/awesome-postgres/blob/master/README.md#monitoring)
 * [awesome-postgres/Optimization](https://github.com/dhamaniasad/awesome-postgres/blob/master/README.md#optimization)
 * [GitHub - gregs1104/pgbench-tools: PostgreSQL Benchmarking Toolset](https://github.com/gregs1104/pgbench-tools)
+#### Monitors
+* [pg_activity/README.md at master · julmon/pg_activity](https://github.com/julmon/pg_activity/blob/master/README.md)
 * [dalibo/pgbadger: A fast PostgreSQL Log Analyzer with fully detailed reports and graphs](https://github.com/dalibo/pgbadger)
 * [GitHub - powa-team/powa-archivist: PostgreSQL Workload Analyzer](https://github.com/powa-team/powa-archivist)
 	* gathers performance stats and provides real-time charts and graphs to help monitor and tune your PostgreSQL servers.
