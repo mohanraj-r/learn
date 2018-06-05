@@ -1,4 +1,4 @@
-# Tables, Constraints, and Indexes
+# Chapter 6. Tables, Constraints, and Indexes
 - [Tables, Constraints, and Indexes](#tables--constraints--and-indexes)
 	- [Indexes](#indexes)
 		- [B-Tree](#b-tree)
@@ -13,6 +13,7 @@
 * PostgreSQL also allows you to mix and match different index types in the same table with the expectation that the planner will consider them all.
 	* For instance, one column could use a B-Tree index while an adjacent column uses a GiST index, with both indexes contributing to speed up the queries.
 	* [PostgreSQL: Documentation: 10: 11.5. Combining Multiple Indexes](https://www.postgresql.org/docs/current/static/indexes-bitmap-scans.html)
+* [PostgreSQL: Documentation: 10: CLUSTER](https://www.postgresql.org/docs/current/static/sql-cluster.html)
 
 ### B-Tree
 * default index
@@ -78,6 +79,7 @@
 ### Operator Classes
 * [PostgreSQL: Documentation: 10: 11.9. Operator Classes and Operator Families](https://www.postgresql.org/docs/current/static/indexes-opclass.html)
 * you’ll need to understand opclasses to troubleshoot the perennial question, “Why is the planner not taking advantage of my index?”
+	* [Why is my index not being used - Postgres OnLine Journal](http://www.postgresonline.com/journal/archives/78-Why-is-my-index-not-being-used.html)
 * A particular index will work only against a given set of opclasses.
 * PostgreSQL groups operators into operator classes.
 	* For example, the int4_ops operator class includes the operators = < > > < to be applied against the data type of int4 (commonly known as an integer).
@@ -94,3 +96,36 @@
 	WHERE am.amname = 'btree'
 	ORDER BY index_method, indexed_type, opclass_name;
 	```
+
+### Functional Indexes
+* PostgreSQL lets you add indexes to functions of columns.
+	* `CREATE INDEX idx ON featnames_short
+		USING btree (upper(fullname) varchar_pattern_ops);`
+* Always use the same functional expression when querying to ensure use of the index.
+	* `SELECT fullname FROM featnames_short WHERE upper(fullname) LIKE 'S%';`
+
+### Partial indexes
+* Partial indexes (sometimes called filtered indexes) are indexes that cover only rows fitting a predefined WHERE condition.
+	* For instance, if you have a table of 1,000,000 rows, but you care about a fixed set of 10,000, you’re better off creating partial indexes.
+* The resulting indexes can be faster because more can fit into RAM, plus you’ll save a bit of disk space on the index itself.
+* Partial indexes let you place uniqueness constraints only on some rows of the data
+	* `CREATE UNIQUE INDEX uq ON subscribers USING btree(lower(name)) WHERE is_active;`
+	* This index is both PARTIAL and functional because what it indexes is lower(name) (not name).
+* Functions used in the index’s WHERE condition must be immutable.
+	* This means you can’t use time functions like CURRENT_DATE
+	* or data from other tables (or other rows of the indexed table) to determine whether a record should be indexed.
+* One warning we stress is that when you query the data, in order for the index to be considered by the planner,
+	* the conditions used when creating the index must be a part of your WHERE condition and
+	* any functions used in the index must also be used in the query filter.
+* An easy way to not have to worry about this is to use a view.
+	* `CREATE OR REPLACE VIEW vw_subscribers_current AS
+SELECT id, lower(name) As name FROM subscribers WHERE is_active = true;`
+	* Then always query the view instead of the table
+	* any query against the view will automatically have that condition in it and be able to use the PARTIAL index
+
+### Multicolumn Indexes
+* you can also create functional indexes using more than one underlying column
+* If you’re unable to predict how you’ll be querying compound fields in the future,
+	* you may be better off creating single-column indexes and let the planner decide how to combine them during search.
+* Keep in mind that the more columns you have in an index, the fatter your index and the less of it that can easily fit in RAM.
+	* Don’t go overboard with compound indexes.
