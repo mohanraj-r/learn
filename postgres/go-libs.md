@@ -50,3 +50,11 @@
 * [mgutz/dat: Go Postgres Data Access Toolkit](https://github.com/mgutz/dat)
 * [GitHub - PostgREST/postgrest: REST API for any Postgres database](https://github.com/PostgREST/postgrest)
     * [GitHub - prest/prest: pREST is a way to serve a RESTful API from any databases written in Go](https://github.com/prest/prest)
+
+## To explore
+* [sosedoff/pgweb: Cross-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
+* [mgutz/dat: Go Postgres Data Access Toolkit](https://github.com/mgutz/dat)
+* [galeone/igor: igor is an abstraction layer for PostgreSQL with a gorm like syntax.](https://github.com/galeone/igor)
+* [xo/xo: Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server](https://github.com/xo/xo)
+* [jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
+* [Home · go-pg/pg Wiki](https://github.com/go-pg/pg/wiki)
