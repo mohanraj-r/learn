@@ -1,6 +1,7 @@
 # Postgres Go libs
 
 ## [go-pg/pg: PostgreSQL ORM for Golang with focus on PostgreSQL features and performance](https://github.com/go-pg/pg)
+* [Home · go-pg/pg Wiki](https://github.com/go-pg/pg/wiki)
 ### Extensive set of features
 * types: .. net.IP, net.IPNet
 * Structs, maps and arrays are marshalled as JSON by default.
@@ -37,6 +38,18 @@
     * Hstore support
 * Extendable logging support including built-in support for log15 and logrus
 
+## [mgutz/dat: Go Postgres Data Access Toolkit](https://github.com/mgutz/dat)
+* JSON Document retrieval
+* SQL-like API
+* Nested transactions
+* Per query timeout with database cancellation logic pg_cancel_backend
+* SQL and slow query logging
+* caching backed by an in-memory or Redis store
+
+## [xo/xo: Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server](https://github.com/xo/xo)
+* works by using database metadata and SQL introspection queries to discover the types and relationships contained within a schema, and applying a standard set of base (or customized) Go templates against the discovered relationships.
+* can generate types for tables, enums, stored procedures, and custom SQL queries for PostgreSQL, MySQL, Oracle, Microsoft SQL Server, and SQLite3 databases.
+
 ## [lib/pq: Pure Go Postgres driver for database/sql](https://github.com/lib/pq)
 ### bad project management
 * 110 open issues, 53 open PRs (June 7, 2018)
@@ -53,16 +66,12 @@
 * easily configured using a YAML file
 	* DB connection params
 
-## Other notable libs
+## Other notable libs/tools
 * [rapidloop/ptgo: PostgreSQL Triggers in Go](https://github.com/rapidloop/ptgo)
-* [mgutz/dat: Go Postgres Data Access Toolkit](https://github.com/mgutz/dat)
 * [GitHub - PostgREST/postgrest: REST API for any Postgres database](https://github.com/PostgREST/postgrest)
     * [GitHub - prest/prest: pREST is a way to serve a RESTful API from any databases written in Go](https://github.com/prest/prest)
-
-## To explore
-* [sosedoff/pgweb: Cross-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
-* [mgutz/dat: Go Postgres Data Access Toolkit](https://github.com/mgutz/dat)
 * [galeone/igor: igor is an abstraction layer for PostgreSQL with a gorm like syntax.](https://github.com/galeone/igor)
-* [xo/xo: Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server](https://github.com/xo/xo)
-* [jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
-* [Home · go-pg/pg Wiki](https://github.com/go-pg/pg/wiki)
+* [sosedoff/pgweb: Cross-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
+
+
+
