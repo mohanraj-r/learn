@@ -26,12 +26,20 @@
 * Migrations.
 * Sharding.
 
+## [jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
+* Maps inet and cidr PostgreSQL types to net.IPNet and net.IP
+* Batch queries
+* Binary format support for custom types (can be much faster)
+* Copy protocol support for faster bulk data loads
+* Listen / notify
+* PostgreSQL array to Go slice mapping for integers, floats, and strings
+* JSON and JSONB support
+    * Hstore support
+* Extendable logging support including built-in support for log15 and logrus
+
 ## [lib/pq: Pure Go Postgres driver for database/sql](https://github.com/lib/pq)
 ### bad project management
 * 110 open issues, 53 open PRs (June 7, 2018)
-
-## [jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
-* Maps inet and cidr PostgreSQL types to net.IPNet and net.IP
 
 ## [gobuffalo/pop: A Tasty Treat For All Your Database Needs](https://github.com/gobuffalo/pop)
 * [callbacks](https://github.com/gobuffalo/pop#callbacks)
