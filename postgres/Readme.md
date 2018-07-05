@@ -16,13 +16,14 @@
 		- [Extensions](#extensions)
 
 ## Reference
+* [Reference - commands, settings, tips](./Reference.md)
 * [PostgreSQL: Documentation: 10](https://www.postgresql.org/docs/10/static/index.html)
 * [PostgreSQL: Documentation: 10: Part I. Tutorial](https://www.postgresql.org/docs/current/static/tutorial.html)
 * [PostgreSQL: Documentation: 10: Chapter 14. Performance Tips](https://www.postgresql.org/docs/current/static/performance-tips.html)
 * [PostgreSQL: Documentation: 10: 7.8. WITH Queries (Common Table Expressions)](https://www.postgresql.org/docs/current/static/queries-with.html)
 * [PostgreSQL: Documentation: 10: Chapter 42. PL/pgSQL - SQL Procedural Language](https://www.postgresql.org/docs/current/static/plpgsql.html)
 * [Foreign data wrappers - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)
-`
+
 ### [Functions and Operators](https://www.postgresql.org/docs/current/static/functions.html)
 * [PostgreSQL: Documentation: 10: 9.12. Network Address Functions and Operators](https://www.postgresql.org/docs/current/static/functions-net.html)
 * [PostgreSQL: Documentation: 10: 9.15. JSON Functions and Operators](https://www.postgresql.org/docs/current/static/functions-json.html)
