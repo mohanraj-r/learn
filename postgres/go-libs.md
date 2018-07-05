@@ -29,6 +29,9 @@
 
 ## [jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
 * Maps inet and cidr PostgreSQL types to net.IPNet and net.IP
+	* Supports custom types
+* Able to set runtime params on conn config
+	* e.g. work mem when we need complex joins etc
 * Batch queries
 * Binary format support for custom types (can be much faster)
 * Copy protocol support for faster bulk data loads
@@ -72,6 +75,3 @@
     * [GitHub - prest/prest: pREST is a way to serve a RESTful API from any databases written in Go](https://github.com/prest/prest)
 * [galeone/igor: igor is an abstraction layer for PostgreSQL with a gorm like syntax.](https://github.com/galeone/igor)
 * [sosedoff/pgweb: Cross-platform client for PostgreSQL databases](https://github.com/sosedoff/pgweb)
-
-
-
