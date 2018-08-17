@@ -83,8 +83,13 @@
 * [awesome-postgres/Optimization](https://github.com/dhamaniasad/awesome-postgres/blob/master/README.md#optimization)
 * [GitHub - gregs1104/pgbench-tools: PostgreSQL Benchmarking Toolset](https://github.com/gregs1104/pgbench-tools)
 * [GitHub - AlexTatiyants/pev: Postgres Explain Visualizer](https://github.com/AlexTatiyants/pev)
+
 #### Monitors
 * [pg_activity/README.md at master · julmon/pg_activity](https://github.com/julmon/pg_activity/blob/master/README.md)
+* [pganalyze/collector: pganalyze statistics collector for gathering PostgreSQL metrics and log data](https://github.com/pganalyze/collector)
+	* > a Go-based daemon which collects various information about Postgres databases as well as queries run on it.
+	* > All data is converted to a protocol buffers structure which can then be used as data source for monitoring & graphing systems.
+* [joyent/pgsqlstat: report top-level postgres stats](https://github.com/joyent/pgsqlstat)
 * [dalibo/pgbadger: A fast PostgreSQL Log Analyzer with fully detailed reports and graphs](https://github.com/dalibo/pgbadger)
 * [GitHub - powa-team/powa-archivist: PostgreSQL Workload Analyzer](https://github.com/powa-team/powa-archivist)
 	* gathers performance stats and provides real-time charts and graphs to help monitor and tune your PostgreSQL servers.

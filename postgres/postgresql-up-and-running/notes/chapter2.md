@@ -9,7 +9,7 @@
 		- [setting, boot_val, reset_val](#setting--boot-val--reset-val)
 		- [Context](#context)
 		- [Level](#level)
-		- [pg_file_settings](#pg-file-settings)
+		- [pg_file_settings](#pg-file-settingshttps---wwwpostgresqlorg-docs-current-static-view-pg-file-settingshtml)
 		- [Connection settings](#connection-settings)
 		- [Performance settings](#performance-settings)
 	- [pg_hba.conf](#pg-hbaconf)
