@@ -16,6 +16,7 @@
 
 ### Videos
 * [Java Programming Basics](https://www.safaribooksonline.com/videos/java-programming-basics/9780133975154) - 5h
+* [Java Path | Pluralsight](https://app.pluralsight.com/paths/skills/java) - 45h (29 basic, 10 intermediate, 6 advanced)
 * [Java Fundamentals I and II (Video Training)](https://www.safaribooksonline.com/videos/java-fundamentals-i/9780137131297) - 20h
 * [Learning Modern Java: A Crash Course Using Java 8](https://www.safaribooksonline.com/videos/learning-modern-java/9780134383613) - 18h
 * [Learning Path: Beginning Java, 2nd Edition | Learning Paths](https://www.safaribooksonline.com/learning-paths/learning-path-beginning/9781491987100/) - 24h
