@@ -28,3 +28,18 @@
 [submodule "architecture/api/graphql/Rethinking REST: A hands-on guide to GraphQL and queryable APIs/resources/rethinking-rest"]
 	path = architecture/api/graphql/Rethinking REST: A hands-on guide to GraphQL and queryable APIs/resources/rethinking-rest
 	url = git@github.com:ariannedee/rethinking-rest.git
+[submodule "postgres/digging-deeper-with-postgresql/inheritance/resources/PostgreSQL_func_script_inheritance"]
+	path = postgres/digging-deeper-with-postgresql/inheritance/resources/PostgreSQL_func_script_inheritance
+	url = https://github.com/Jess88/PostgreSQL_func_script_inheritance.git
+[submodule "postgres/digging-deeper-with-postgresql/performance/resources/PostgreSQL_Org_processes_and_eval_performance"]
+	path = postgres/digging-deeper-with-postgresql/performance/resources/PostgreSQL_Org_processes_and_eval_performance
+	url = https://github.com/Jess88/PostgreSQL_Org_processes_and_eval_performance.git
+[submodule "kubernetes/9stepstoawesomewithkubernetes/resources/9stepsawesome"]
+	path = kubernetes/9stepstoawesomewithkubernetes/resources/9stepsawesome
+	url = git@github.com:burrsutter/9stepsawesome.git
+[submodule "kubernetes/practical-kubernetes/resources/go-demo-2"]
+	path = kubernetes/practical-kubernetes/resources/go-demo-2
+	url = git@github.com:vfarcic/go-demo-2.git
+[submodule "kubernetes/practical-kubernetes/resources/k8s-specs"]
+	path = kubernetes/practical-kubernetes/resources/k8s-specs
+	url = git@github.com:vfarcic/k8s-specs.git
