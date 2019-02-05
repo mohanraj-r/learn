@@ -1,0 +1,152 @@
+[
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1548110279595,
+            "changeTime": 1548110279595,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1548110279595,
+            "changeTime": 1548110279595,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1548110279595,
+            "changeTime": 1548110279595,
+            "contentHash": "7334b1e8716ee057f8863fce77d3933d5bd9d984",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1548110279595,
+            "changeTime": 1548110279595,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1548111580041,
+            "changeTime": 1548111580041,
+            "contentHash": "faff82b8edb19af39d7a6c08271b6498fd431a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1548111580042,
+            "changeTime": 1548111580042,
+            "contentHash": "c4f5c53c9e3fa98e7b41f54b72a11b17045711fb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.html",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 328,
+            "modifiedTime": 1548111776950,
+            "changeTime": 1548111776950,
+            "contentHash": "0f1385be1439d4d78722e0860456498269968db8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 216,
+            "modifiedTime": 1548111856124,
+            "changeTime": 1548111856124,
+            "contentHash": "6dba63f70dd49d8f15309a6bc8327d658b6b828f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.js-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent/force-app/main/default/lwc/helloWorld/helloWorld.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 388,
+            "modifiedTime": 1548111903289,
+            "changeTime": 1548111903289,
+            "contentHash": "abc6aa7c39b48c5e94ba063b91c3492582ec0fa0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent",
+        {
+            "state": "n",
+            "sourcePath": "/Users/mrajamanickam/src/learn/lwc/HelloWorldLightningWebComponent",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1548110287560,
+            "changeTime": 1548110287560,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
