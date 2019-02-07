@@ -43,3 +43,9 @@
 [submodule "kubernetes/practical-kubernetes/resources/k8s-specs"]
 	path = kubernetes/practical-kubernetes/resources/k8s-specs
 	url = git@github.com:vfarcic/k8s-specs.git
+[submodule "kubernetes/istio_on_kubernetes/resources/istio-tutorial"]
+	path = kubernetes/istio_on_kubernetes/resources/istio-tutorial
+	url = git@github.com:redhat-developer-demos/istio-tutorial.git
+[submodule "kubernetes/istio_on_kubernetes/resources/scripts-istio"]
+	path = kubernetes/istio_on_kubernetes/resources/scripts-istio
+	url = git@github.com:burrsutter/scripts-istio.git
