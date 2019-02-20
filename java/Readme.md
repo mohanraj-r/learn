@@ -8,7 +8,7 @@
 	- [Selenium](#selenium)
 
 ## Learning resources
-
+- [Addison-Wesley Professional Titles](https://learning.oreilly.com/library/publisher/addison-wesley-professional/)
 - [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/)
 - [Effective Java, 3rd Edition](https://www.safaribooksonline.com/library/view/effective-java-3rd/9780134686097/)
 - [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
