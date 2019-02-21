@@ -44,3 +44,6 @@
 - [Design a Selenium Test Framework from Scratch-Architect level](https://www.safaribooksonline.com/videos/design-a-selenium/9781789131048)
 - [Selenium Testing Tools Cookbook](https://www.safaribooksonline.com/library/view/selenium-testing-tools/9781849515740/)
 - [LEARNING PATH: Selenium WebDriver with Java: Step-By-Step Tutorial | Learning Paths](https://www.safaribooksonline.com/learning-paths/learning-path-selenium/9781789530186/)
+
+## gRPC
+- [gRPC [Java] Master Class: Build Modern API and Microservices](https://learning.oreilly.com/videos/grpc-java-master/9781838558048)
