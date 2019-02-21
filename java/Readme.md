@@ -22,6 +22,7 @@
 - [Java Path | Pluralsight](https://app.pluralsight.com/paths/skills/java) - 45h (29 basic, 10 intermediate, 6 advanced)
 - [Java Fundamentals I and II (Video Training)](https://www.safaribooksonline.com/videos/java-fundamentals-i/9780137131297) - 20h
 - [Learning Modern Java: A Crash Course Using Java 8](https://www.safaribooksonline.com/videos/learning-modern-java/9780134383613) - 18h
+- [Refactoring to Modern Java](https://learning.oreilly.com/videos/refactoring-to-modern/9780134653617) - 2h
 - [Learning Path: Beginning Java, 2nd Edition | Learning Paths](https://www.safaribooksonline.com/learning-paths/learning-path-beginning/9781491987100/) - 24h
 - [Java 8 and 9 Fundamentals: Modern Java Development with Lambdas, Streams, and Introducing Java 9’s JShell and the Java Platform Module System (JPMS)](https://www.safaribooksonline.com/videos/java-8-and/9780133489354) - 55h
 - [Java Concurrency, 2/e](https://www.safaribooksonline.com/videos/java-concurrency-2-e/9780134510644)
