@@ -9,9 +9,10 @@
 
 ## Learning resources
 - [Addison-Wesley Professional Titles](https://learning.oreilly.com/library/publisher/addison-wesley-professional/)
-- [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/)
+- [Core Java](https://learning.oreilly.com/search/?query=%22core%20java%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&is_academic_institution_account=false&sort=publication_date&page=0&field=title)
+	- [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/)
+	- [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
 - [Effective Java, 3rd Edition](https://www.safaribooksonline.com/library/view/effective-java-3rd/9780134686097/)
-- [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
 - [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.safaribooksonline.com/library/view/java-8-in/9781617291999/)
 - [Java Concurrency in Practice](https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/)
 
