@@ -1,0 +1,43 @@
+#!/opt/jdk1.8.0/bin/jjs
+
+var Files = java.nio.file.Files
+var Paths = java.nio.file.Paths
+
+function error(message) {
+    java.lang.System.err.println(message);
+    exit(1);
+}
+
+function check(dir) {
+  var path = Paths.get(dir)
+  if (!Files.exists(path)) {
+    error("${dir} doesn't exist!")
+  }
+  if (!Files.isDirectory(path)) {
+    error("${dir} is not a directory!")
+  }
+}
+
+if ($ARG.length < 2) {
+   error(<<END);
+usage: swapdir dir1 dir2
+   Both directories must exist
+END
+}
+
+var dir1 = $ARG[0]
+var dir2 = $ARG[1]
+
+check(dir1)
+check(dir2)
+
+var temp=`mktemp -d`.trim()
+
+print("mv ${dir1} ${temp}/dir")
+print("mv ${dir2} ${dir1}")
+print("mv ${temp}/dir ${dir2}")
+
+`mv ${dir1} ${temp}/dir`
+`mv ${dir2} ${dir1}`
+`mv ${temp}/dir ${dir2}`
+`rmdir ${temp}`

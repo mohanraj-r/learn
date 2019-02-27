@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-5.1.jar"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-analysis-5.1.jar"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-commons-5.1.jar"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-tree-5.1.jar"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-util-5.1.jar"/>
+	<classpathentry kind="lib" path="/home/cay/Dropbox/livelessons2/code/asm-5.1/lib/asm-xml-5.1.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

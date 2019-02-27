@@ -49,3 +49,6 @@
 [submodule "kubernetes/istio_on_kubernetes/resources/scripts-istio"]
 	path = kubernetes/istio_on_kubernetes/resources/scripts-istio
 	url = git@github.com:burrsutter/scripts-istio.git
+[submodule "java/design-patterns-in-java/resources/LiveLessons"]
+	path = java/design-patterns-in-java/resources/LiveLessons
+	url = git@github.com:douglascraigschmidt/LiveLessons.git
