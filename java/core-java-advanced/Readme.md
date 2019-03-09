@@ -2,6 +2,7 @@
 
 - [Core Java: Advanced](#core-java-advanced)
   - [Resources](#resources)
+  - [TODO](#todo)
   - [Streams](#streams)
     - [workflow](#workflow)
   - [Annotations](#annotations)
@@ -12,6 +13,9 @@
 ## Resources
 
 - [Core Java LiveLessons (1)](<http://horstmann.com/corejava/livelessons2/#(1)>)
+
+## TODO
+
 
 ---
 

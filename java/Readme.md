@@ -1,14 +1,20 @@
 # Java
 
 - [Java](#java)
+	- [Reference](#reference)
 	- [Learning resources](#learning-resources)
 		- [Videos](#videos)
 			- [Concurrency, Functional programming](#concurrency-functional-programming)
 			- [Architecture, design](#architecture-design)
-	- [Reference](#reference)
+	- [Maven](#maven)
 	- [Javascript](#javascript)
 	- [Selenium](#selenium)
 	- [gRPC](#grpc)
+	- [rxJava](#rxjava)
+
+## Reference
+
+- [akullpp/awesome-java: A curated list of awesome frameworks, libraries and software for the Java programming language.](https://github.com/akullpp/awesome-java)
 
 ## Learning resources
 
@@ -42,9 +48,9 @@
 - [Design Patterns in Java](https://www.safaribooksonline.com/videos/design-patterns-in/9780133489989)
 - [Clean Code Applied (Clean Coders Video Series): Building a Java Web Application with Software Craftsmanship](https://www.safaribooksonline.com/videos/clean-code-applied/9780134843810)
 
-## Reference
+## Maven
 
-- [akullpp/awesome-java: A curated list of awesome frameworks, libraries and software for the Java programming language.](https://github.com/akullpp/awesome-java)
+- [Learning Apache Maven](https://learning.oreilly.com/videos/learning-apache-maven/9781771373661)
 
 ## Javascript
 
@@ -60,3 +66,9 @@
 ## gRPC
 
 - [gRPC [Java] Master Class: Build Modern API and Microservices](https://learning.oreilly.com/videos/grpc-java-master/9781838558048)
+
+## rxJava
+
+- [Reactive libraries](https://github.com/akullpp/awesome-java#reactive-libraries)
+- [ReactiveX/RxJava: RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.](https://github.com/ReactiveX/RxJava)
+- [Reactive Programming in Java 8 With RxJava | Pluralsight](https://app.pluralsight.com/library/courses/reactive-programming-java-8-rxjava/table-of-contents)
