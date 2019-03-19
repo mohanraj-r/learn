@@ -19,6 +19,7 @@
 ## Learning resources
 
 - [Addison-Wesley Professional Titles](https://learning.oreilly.com/library/publisher/addison-wesley-professional/)
+- ["Robert C. Martin" Clean coder series](https://learning.oreilly.com/search/?query=%22Robert%20C.%20Martin%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&is_academic_institution_account=false&formats=video&formats=book&sort=publication_date&page=0&field=authors)
 - [Core Java](https://learning.oreilly.com/search/?query=%22core%20java%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&is_academic_institution_account=false&sort=publication_date&page=0&field=title) 
 
 ### Books
