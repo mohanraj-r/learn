@@ -24,6 +24,9 @@
 
 ### Books
 - [Effective Java, 3rd Edition](https://learning.oreilly.com/library/view/effective-java-3rd/9780134686097/)
+- [Test Driven: Practical TDD and Acceptance TDD for Java Developers](https://learning.oreilly.com/library/view/test-driven-practical/9781932394856/)
+- [Head First Design Patterns](https://learning.oreilly.com/library/view/head-first-design/0596007124/)
+  - [Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
 - [Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
 - [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.safaribooksonline.com/library/view/java-8-in/9781617291999/)
 - [Java Concurrency in Practice](https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/)
