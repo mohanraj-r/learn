@@ -19,10 +19,15 @@
 ## Learning resources
 
 - [Addison-Wesley Professional Titles](https://learning.oreilly.com/library/publisher/addison-wesley-professional/)
-- [Core Java](https://learning.oreilly.com/search/?query=%22core%20java%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&is_academic_institution_account=false&sort=publication_date&page=0&field=title) - [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/) - [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
-- [Effective Java, 3rd Edition](https://www.safaribooksonline.com/library/view/effective-java-3rd/9780134686097/)
+- [Core Java](https://learning.oreilly.com/search/?query=%22core%20java%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&is_academic_institution_account=false&sort=publication_date&page=0&field=title) 
+
+### Books
+- [Effective Java, 3rd Edition](https://learning.oreilly.com/library/view/effective-java-3rd/9780134686097/)
+- [Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
 - [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.safaribooksonline.com/library/view/java-8-in/9781617291999/)
 - [Java Concurrency in Practice](https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/)
+  - [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/) 
+  - [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
 
 ### Videos
 
@@ -72,3 +77,9 @@
 - [Reactive libraries](https://github.com/akullpp/awesome-java#reactive-libraries)
 - [ReactiveX/RxJava: RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.](https://github.com/ReactiveX/RxJava)
 - [Reactive Programming in Java 8 With RxJava | Pluralsight](https://app.pluralsight.com/library/courses/reactive-programming-java-8-rxjava/table-of-contents)
+
+## Kotlin
+* Kotlin From the Ground Up LiveLessons Video Training (https://learning.oreilly.com/videos/kotlin-from-the/9780135263631) (4.5 h)
+* Introduction to Kotlin Programming (https://learning.oreilly.com/videos/introduction-to-kotlin/9781491964125) (5h)
+    * Advanced Kotlin Programming (https://learning.oreilly.com/videos/advanced-kotlin-programming/9781491964149) (3h)
+* kotlin Search | Pluralsight (https://app.pluralsight.com/search/?q=kotlin&m_Sort=relevance&type=courses) 
