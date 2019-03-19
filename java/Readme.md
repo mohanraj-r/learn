@@ -57,6 +57,7 @@
 ## Maven
 
 - [Learning Apache Maven](https://learning.oreilly.com/videos/learning-apache-maven/9781771373661)
+- [Maven Fundamentals | Pluralsight](https://app.pluralsight.com/library/courses/maven-fundamentals/table-of-contents)
 
 ## Javascript
 
