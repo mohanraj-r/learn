@@ -96,6 +96,7 @@
     * [Advanced Kotlin Programming](https://learning.oreilly.com/videos/advanced-kotlin-programming/9781491964149) (3h)
 ### Talks
 - [Migrating enterprise apps to Kotlin - AMahdy Abdelaziz (Vaadin) | OSCON 2018 - Portland, Oregon](https://learning.oreilly.com/videos/oscon-2018/9781492026075/9781492026075-video321454)
+- [How to Kotlin - from the Lead Kotlin Language Designer (Google I/O '18) - YouTube](https://www.youtube.com/watch?v=6P20npkvcb8)
 ### Books
 - [Kotlin in Action](https://learning.oreilly.com/library/view/kotlin-in-action/9781617293290/)
 - [Kotlin Programming: The Big Nerd Ranch Guide, First Edition](https://learning.oreilly.com/library/view/kotlin-programming-the/9780135165188/)
