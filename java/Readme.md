@@ -44,6 +44,11 @@
 - [Learning Path: Beginning Java, 2nd Edition | Learning Paths](https://www.safaribooksonline.com/learning-paths/learning-path-beginning/9781491987100/) - 24h
 - [Java 8 and 9 Fundamentals: Modern Java Development with Lambdas, Streams, and Introducing Java 9’s JShell and the Java Platform Module System (JPMS)](https://www.safaribooksonline.com/videos/java-8-and/9780133489354) - 55h
 
+#### Refactoring
+- [Refactoring to Modern Java](https://learning.oreilly.com/videos/refactoring-to-modern/9780134653617/)
+- [Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
+   - [Refactoring informit: ToC](https://memberservices.informit.com/my_account/webedition/9780135425664/html/toc.html)
+
 #### Concurrency, Functional programming
 
 - [Functional Programming With Java | Pluralsight](https://app.pluralsight.com/library/courses/java-functional-programming/table-of-contents) - 1.5h
@@ -84,7 +89,13 @@
 - [Reactive Programming in Java 8 With RxJava | Pluralsight](https://app.pluralsight.com/library/courses/reactive-programming-java-8-rxjava/table-of-contents)
 
 ## Kotlin
-* Kotlin From the Ground Up LiveLessons Video Training (https://learning.oreilly.com/videos/kotlin-from-the/9780135263631) (4.5 h)
-* Introduction to Kotlin Programming (https://learning.oreilly.com/videos/introduction-to-kotlin/9781491964125) (5h)
-    * Advanced Kotlin Programming (https://learning.oreilly.com/videos/advanced-kotlin-programming/9781491964149) (3h)
-* kotlin Search | Pluralsight (https://app.pluralsight.com/search/?q=kotlin&m_Sort=relevance&type=courses) 
+* [Kotlin Oreilly](https://learning.oreilly.com/topics/kotlin?active=&expanded=&addl_expanded=&format=all&publishers=all&sort_order=popularity)
+* [kotlin | Pluralsight](https://app.pluralsight.com/search/?q=kotlin&m_Sort=relevance&type=courses) 
+* [Kotlin From the Ground Up LiveLessons Video Training](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631) (4.5 h)
+* [Introduction to Kotlin Programming](https://learning.oreilly.com/videos/introduction-to-kotlin/9781491964125) (5h)
+    * [Advanced Kotlin Programming](https://learning.oreilly.com/videos/advanced-kotlin-programming/9781491964149) (3h)
+### Talks
+- [Migrating enterprise apps to Kotlin - AMahdy Abdelaziz (Vaadin) | OSCON 2018 - Portland, Oregon](https://learning.oreilly.com/videos/oscon-2018/9781492026075/9781492026075-video321454)
+### Books
+- [Kotlin in Action](https://learning.oreilly.com/library/view/kotlin-in-action/9781617293290/)
+- [Kotlin Programming: The Big Nerd Ranch Guide, First Edition](https://learning.oreilly.com/library/view/kotlin-programming-the/9780135165188/)
