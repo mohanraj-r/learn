@@ -91,6 +91,9 @@
 ## Kotlin
 * [Kotlin Oreilly](https://learning.oreilly.com/topics/kotlin?active=&expanded=&addl_expanded=&format=all&publishers=all&sort_order=popularity)
 * [kotlin | Pluralsight](https://app.pluralsight.com/search/?q=kotlin&m_Sort=relevance&type=courses) 
+* [KotlinBy/awesome-kotlin: A curated list of awesome Kotlin related stuff Inspired by awesome-java.](https://github.com/KotlinBy/awesome-kotlin)
+* [Try Kotlin](https://try.kotlinlang.org/)
+### Courses
 * [Kotlin From the Ground Up LiveLessons Video Training](https://learning.oreilly.com/videos/kotlin-from-the/9780135263631) (4.5 h)
 * [Introduction to Kotlin Programming](https://learning.oreilly.com/videos/introduction-to-kotlin/9781491964125) (5h)
     * [Advanced Kotlin Programming](https://learning.oreilly.com/videos/advanced-kotlin-programming/9781491964149) (3h)
@@ -102,4 +105,5 @@
 - [KotlinConf 2017 - YouTube](https://www.youtube.com/playlist?list=PLQ176FUIyIUY6UK1cgVsbdPYA3X5WLam5)
 ### Books
 - [Kotlin in Action](https://learning.oreilly.com/library/view/kotlin-in-action/9781617293290/)
+	- [Kotlin/kotlin-in-action: Code samples from the "Kotlin in Action" book](https://github.com/Kotlin/kotlin-in-action)
 - [Kotlin Programming: The Big Nerd Ranch Guide, First Edition](https://learning.oreilly.com/library/view/kotlin-programming-the/9780135165188/)
