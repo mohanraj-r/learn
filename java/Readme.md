@@ -28,10 +28,8 @@
 - [Head First Design Patterns](https://learning.oreilly.com/library/view/head-first-design/0596007124/)
   - [Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
 - [Modern Java in Action](https://learning.oreilly.com/library/view/modern-java-in/9781617293566/)
-- [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.safaribooksonline.com/library/view/java-8-in/9781617291999/)
-- [Java Concurrency in Practice](https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/)
-  - [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/) 
-  - [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
+- [Core Java Volume I—Fundamentals, Eleventh Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780135167199/) 
+- [Core Java, Volume II—Advanced Features, Tenth Edition](https://www.safaribooksonline.com/library/view/core-java-volume/9780134177878/)
 
 ### Videos
 
@@ -44,21 +42,25 @@
 - [Learning Path: Beginning Java, 2nd Edition | Learning Paths](https://www.safaribooksonline.com/learning-paths/learning-path-beginning/9781491987100/) - 24h
 - [Java 8 and 9 Fundamentals: Modern Java Development with Lambdas, Streams, and Introducing Java 9’s JShell and the Java Platform Module System (JPMS)](https://www.safaribooksonline.com/videos/java-8-and/9780133489354) - 55h
 
+#### Concurrency
+- [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.safaribooksonline.com/library/view/java-8-in/9781617291999/)
+- [Java Concurrency in Practice](https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/)
+- [Java Concurrency, 2/e](https://www.safaribooksonline.com/videos/java-concurrency-2-e/9780134510644) - 10h
+
 #### Refactoring
 - [Refactoring to Modern Java](https://learning.oreilly.com/videos/refactoring-to-modern/9780134653617/)
 - [Refactoring: Improving the Design of Existing Code](https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
    - [Refactoring informit: ToC](https://memberservices.informit.com/my_account/webedition/9780135425664/html/toc.html)
 
-#### Concurrency, Functional programming
+#### Functional programming
 
 - [Functional Programming With Java | Pluralsight](https://app.pluralsight.com/library/courses/java-functional-programming/table-of-contents) - 1.5h
 - [Functional Programming For Java LiveLessons](https://www.safaribooksonline.com/videos/functional-programming-for/9780134778235) - 8h
-- [Java Concurrency, 2/e](https://www.safaribooksonline.com/videos/java-concurrency-2-e/9780134510644) - 10h
 - [Modern Java Collections](https://www.safaribooksonline.com/videos/modern-java-collections/9780134663524) - 6h
 
 #### Architecture, design
 
-- [Refactoring to Modern Java](https://learning.oreilly.com/videos/refactoring-to-modern/9780134653617) - 2h
+- :star: [Refactoring to Modern Java](https://learning.oreilly.com/videos/refactoring-to-modern/9780134653617) - 2h
 - [Design Patterns in Java](https://www.safaribooksonline.com/videos/design-patterns-in/9780133489989)
 - [Clean Code Applied (Clean Coders Video Series): Building a Java Web Application with Software Craftsmanship](https://www.safaribooksonline.com/videos/clean-code-applied/9780134843810)
 
