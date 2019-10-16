@@ -1,5 +1,7 @@
 # Go
 
+* [Resources](https://github.com/mohanraj-r/learn/wiki/2.0-Go)
+
 ## Learn
 Some resources that helped me (in order of increasing depth and time involvement): 
 * [A Tour of Go](https://tour.golang.org/welcome/1)
