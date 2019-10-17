@@ -1,6 +1,7 @@
 # Go
 
-* [Resources](https://github.com/mohanraj-r/learn/wiki/2.0-Go)
+* [Wiki Resources](https://github.com/mohanraj-r/learn/wiki/2.0-Go)
+* [avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)
 
 ## Learn
 Some resources that helped me (in order of increasing depth and time involvement): 
