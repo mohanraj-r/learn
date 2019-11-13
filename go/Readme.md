@@ -14,3 +14,4 @@ Some resources that helped me (in order of increasing depth and time involvement
 
 ## Reference
 * [Go Programming Cookbook](https://learning.oreilly.com/library/view/go-programming-cookbook/9781789800982/)
+* [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
