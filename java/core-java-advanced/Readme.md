@@ -3,6 +3,9 @@
 - [Core Java: Advanced](#core-java-advanced)
   - [Resources](#resources)
   - [TODO](#todo)
+  - [Scripting API](#scripting-api)
+    - [ScriptEngine object](#scriptengine-object)
+    - [Direct invocation from Java using interfaces](#direct-invocation-from-java-using-interfaces)
   - [Streams](#streams)
     - [workflow](#workflow)
   - [Annotations](#annotations)
@@ -18,6 +21,41 @@
 
 
 ---
+
+## Scripting API
+
+### ScriptEngine object
+
+* `manager = new ScriptEngineManager()`
+* `engine = manager.getEnginebyName("nashorn")`
+    * JS interpreter that comes with jdk
+* `engine.eval(scriptString)`
+    * to run the given script in the JS interpreter 
+* `engine.put("key", value)`
+    * create variable in the global scope
+    * that persists across invocations on the engine
+    * can create a scope to restrain variables to a particular scope
+        * `scope = engine.createBindings()`
+        * `scope.put(“key”, value)`
+        * `engine.eval(scriptString, scope)` 
+* To get the results from the JS interpreter into java var 
+    * `result = ((Invocable) engine.invokeFunction(functionName, funcargs...)`
+    * to invoke object methods
+        * `Object foo = engine.eval("new Foo(...)") `
+            * invoke constructor
+        * `result = ((Invocable) engine.invokeMethod(foo, method, args...)`
+
+### Direct invocation from Java using interfaces
+
+* instead of going through the `Invocable` every time
+* Define an interface in Java
+    * that would be implemented by a JS function
+* Provide a implementation of the interface in JS
+* Call the function from Java
+    * `f = ((Invocable) engine).getInterface(FooInterface.class)`
+        * invocable called only once
+    * `result = f.func(args...)`
+        * called directly from Java
 
 ## Streams
 
