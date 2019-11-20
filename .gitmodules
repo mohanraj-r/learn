@@ -52,3 +52,6 @@
 [submodule "java/design-patterns-in-java/resources/LiveLessons"]
 	path = java/design-patterns-in-java/resources/LiveLessons
 	url = git@github.com:douglascraigschmidt/LiveLessons.git
+[submodule "js/typescript/design_patterns_with_typeScript/resources/TypeScriptPatterns"]
+	path = js/typescript/design_patterns_with_typeScript/resources/TypeScriptPatterns
+	url = https://github.com/GreenhornDeveloper/TypeScriptPatterns.git
