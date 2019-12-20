@@ -55,3 +55,12 @@
 [submodule "js/typescript/design_patterns_with_typeScript/resources/TypeScriptPatterns"]
 	path = js/typescript/design_patterns_with_typeScript/resources/TypeScriptPatterns
 	url = https://github.com/GreenhornDeveloper/TypeScriptPatterns.git
+[submodule "js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/advanced-js-snippets"]
+	path = js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/advanced-js-snippets
+	url = https://github.com/sahilkhosla/advanced-js-snippets.git
+[submodule "js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/dummy-app"]
+	path = js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/dummy-app
+	url = https://github.com/sahilkhosla/dummy-app.git
+[submodule "js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/base-npm-lib"]
+	path = js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/base-npm-lib
+	url = https://github.com/sahilkhosla/base-npm-lib.git
