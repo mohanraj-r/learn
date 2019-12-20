@@ -64,3 +64,6 @@
 [submodule "js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/base-npm-lib"]
 	path = js/javascript/AdvancedJavascript-OreillyLiveTraining-Dec2019/resources/base-npm-lib
 	url = https://github.com/sahilkhosla/base-npm-lib.git
+[submodule "js/javascript/AsynchronousProgrammingWithNodejs/resources/olt_async_programming_with_node"]
+	path = js/javascript/AsynchronousProgrammingWithNodejs/resources/olt_async_programming_with_node
+	url = https://github.com/ckarande/olt_async_programming_with_node.git
