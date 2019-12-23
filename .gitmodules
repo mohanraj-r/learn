@@ -67,3 +67,6 @@
 [submodule "js/javascript/AsynchronousProgrammingWithNodejs/resources/olt_async_programming_with_node"]
 	path = js/javascript/AsynchronousProgrammingWithNodejs/resources/olt_async_programming_with_node
 	url = https://github.com/ckarande/olt_async_programming_with_node.git
+[submodule "js/typescript/programming_typescript/resources/programming-typescript-answers"]
+	path = js/typescript/programming_typescript/resources/programming-typescript-answers
+	url = https://github.com/bcherny/programming-typescript-answers.git
