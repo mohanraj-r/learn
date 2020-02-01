@@ -73,3 +73,6 @@
 [submodule "js/vue/vue_getting_started_pluralsight/resources/vue-getting-started"]
 	path = js/vue/vue_getting_started_pluralsight/resources/vue-getting-started
 	url = https://github.com/johnpapa/vue-getting-started.git
+[submodule "js/typescript/effective_typescript/resources/effective-typescript"]
+	path = js/typescript/effective_typescript/resources/effective-typescript
+	url = https://github.com/danvk/effective-typescript.git
