@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+tensorflow = "==1.15.0"
+matplotlib = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.7"
