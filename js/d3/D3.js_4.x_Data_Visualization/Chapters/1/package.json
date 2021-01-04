@@ -55,7 +55,7 @@
     "@types/d3-sankey": "github:aendrew/d3-sankey",
     "@types/lodash": "^4.14.62",
     "@types/node": "^7.0.5",
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "babel-preset-env": "^1.6.1",
     "canvas-prebuilt": "^1.6.0",
     "d3": "^4.8.0",
